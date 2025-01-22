@@ -1,0 +1,59 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "z flip 6",
+      "price": 2100,
+      "image": "",
+      "aosDelay": 0
+    },
+
+    {
+      "id": 2,
+      "title": "S 24 Ultra",
+      "price": 4150.5,
+      "image": "",
+      "aosDelay": 400
+    },
+    {
+      "id": 4,
+      "title": "Z-fold 3",
+      "price": 2456.7,
+      "image": "",
+      "aosDelay": 600
+    },
+    {
+      "id": 3,
+      "title": "Z-fold 3",
+      "price": 1423.4,
+      "image": "",
+      "aosDelay": 600
+    }
+  ],
+  "BlogData": [
+    {
+      "id": 1,
+      "title": "What CEO Says about the future updates",
+      "subtitle": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "img": "",
+      "name": "Name",
+      "position": "C.E.O"
+    },
+    {
+      "id": 2,
+      "title": "Our Future relays on Galaxy Ai",
+      "subtitle": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "img": "",
+      "name": "Name 2",
+      "position": "CO-OFFICER"
+    },
+    {
+      "id": 3,
+      "title": "New Market Trending News",
+      "subtitle": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+      "img": "",
+      "name": "Name 3",
+      "position": "MARKET MANAGER"
+    }
+  ]
+}
