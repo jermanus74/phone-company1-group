@@ -71,7 +71,11 @@ export const Navbar = () => {
                   Quick Links <FaCaretDown />
                 </button>
                 {dropdownOpen && (
-                  <div className="dropdown-menu bg-white dark:bg-gray-800 shadow-lg rounded-md absolute top-full left-0 w-full lg:w-auto mt-2">
+                  <div
+                    className="dropdown-menu bg-white
+                         dark:bg-gray-800 shadow-lg rounded-md 
+                        absolute top-full left-0 w-full lg:w-auto mt-2"
+                  >
                     <ul>
                       {DropdownLinks.map((data, index) => (
                         <li key={index} className="px-4 py-2">

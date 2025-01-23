@@ -6,13 +6,13 @@ import "./home.css";
 import { Category } from "../components/categories/Category";
 import { Services } from "../components/services/Services";
 import { Blog } from "../components/blog/Blog";
+import { Heading } from "../components/shared/Heading";
 export const Home = () => {
   return (
     <div>
       <Navbar />
       <Hero />
-      <h1 className="offer">January Offer</h1>
-      <p>Shop Now</p>
+      <Heading title={"January Offer"} subtitle={"Shop Now"} />
       <Category />
       <Services />
       <Blog />
