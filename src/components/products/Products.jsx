@@ -15,7 +15,7 @@ export const Products = () => {
       .then((data) => {
         // Map through the data to dynamically update the images
         const updatedProducts = data.map((product, index) => {
-          const images = [Image1, Image2, Image3, Image3];
+          const images = [Image1, Image2, Image3];
           return {
             ...product,
             image: images[index % images.length], // Assign image based on index

@@ -57,7 +57,7 @@ export const Blog = () => {
                 <img
                   src={data.image}
                   alt={data.title}
-                  className="w-fullh-[220px] object-cover
+                  className="w-full h-[220px] object-cover
                 rounded-2x hover:scale-105 transition duration-500 "
                 />
               </div>
