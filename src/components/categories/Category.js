@@ -7,8 +7,9 @@ export const Category = () => {
   return (
     <div className="category-container py-8">
       <div className="category-wrapper container lg:p-1">
-        <div className="category-grid p-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* First col */}
+        {/* Responsive Grid */}
+        <div className=" grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 gap-8">
+          {/* First Card */}
           <div className="category-card py-10 pl-5 bg-gradient-to-br from-black to-black/70 text-white rounded-3xl relative h-[290px] flex items-end w-auto">
             <div className="category-content relative w-full h-full flex flex-col justify-end">
               <div className="category-text space-y-3 mb-2">
@@ -35,7 +36,7 @@ export const Category = () => {
               />
             </div>
           </div>
-          {/* Second col */}
+          {/* Second Card */}
           <div className="category-card py-10 pl-5 bg-gradient-to-br from-brandYellow to-brandYellow/70 text-white rounded-3xl relative h-[290px] flex items-end">
             <div className="category-content relative w-full h-full flex flex-col justify-end">
               <div className="category-text space-y-3 mb-2">
@@ -60,7 +61,7 @@ export const Category = () => {
               />
             </div>
           </div>
-          {/* Third col */}
+          {/* Third Card */}
           <div className="category-card col-span-2 py-10 pl-5 bg-gradient-to-br from-brandBlue to-brandBlue/70 text-white rounded-3xl relative h-[290px] flex items-end">
             <div className="relative w-full h-full flex flex-col justify-end  items-start">
               <div className="category-text space-y-3 mb-2">

@@ -36,7 +36,7 @@ const initialCartItems = [
 
 export const Navbar = () => {
   const [showCart, setShowCart] = useState(false); // State to toggle shopping list visibility
-  const [cartItems, setCartItems] = useState(initialCartItems); // State to hold cart items
+  const [cartItems] = useState(initialCartItems); // State to hold cart items
 
   const handleCartToggle = () => {
     setShowCart(!showCart);

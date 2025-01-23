@@ -1,9 +1,9 @@
 /* Navbar.css */
-.custom-container {
+/* .custom-container {
   background-color: white;
   transition-duration: 200ms;
   overflow: hidden;
-}
+} */
 
 /* General styles */
 .navbar {
@@ -247,7 +247,7 @@
 
 @media (min-width: 768px) {
   .product-card-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
