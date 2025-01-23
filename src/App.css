@@ -1,9 +1,9 @@
 /* Navbar.css */
-/* .custom-container {
+.custom-container {
   background-color: white;
   transition-duration: 200ms;
   overflow: hidden;
-} */
+}
 
 /* General styles */
 .navbar {
@@ -61,6 +61,11 @@
 /* Dropdown styles */
 .navbar .dropdown {
   position: relative;
+  color: #666;
+}
+.navbar .dropdown button :hover {
+  transform: rotate(180deg);
+  color: #fff;
 }
 
 .navbar .dropdown-menu {
@@ -76,6 +81,8 @@
 
 .navbar .dropdown:hover .dropdown-menu {
   display: block;
+  width: max-content;
+  color: #fff;
 }
 
 .navbar .dropdown-menu a {

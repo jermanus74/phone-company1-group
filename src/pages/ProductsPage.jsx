@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Navbar } from "./../components/navbar/Navbar";
-import { ProductCard } from "./../components/products/ProductCard";
+import { Navbar } from "../components/navbar/Navbar";
+import { ProductCard } from "../components/products/ProductCard";
 
 export const ProductsPage = () => {
   const [cartItems, setCartItems] = useState([]);

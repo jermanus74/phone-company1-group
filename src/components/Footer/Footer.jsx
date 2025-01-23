@@ -21,14 +21,14 @@ export const Footer = () => {
         <div className="grid md:grid-cols-5 pb-20 pt-5">
           {/* Company details */}
           <div className="footer-company-details py-8 px-4">
-            <a href="#" className="footer-logo text-brandBlue font-helvetica">
+            <a href="/" className="footer-logo text-brandBlue font-helvetica">
               samsung
             </a>
             <p className="footer-description text-gray-600">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <p className="footer-credits">By MUST Computer Science Students</p>
-            <a href="#" className="visit-button bg-brandBlue text-white">
+            <a href="/" className="visit-button bg-brandBlue text-white">
               Visit Our Website
             </a>
           </div>
@@ -76,13 +76,13 @@ export const Footer = () => {
                 </div>
               </div>
               <div className="footer-social-links mt-6">
-                <a href="#">
+                <a href="/">
                   <FaInstagram className="social-icon" />
                 </a>
-                <a href="#">
+                <a href="/">
                   <FaFacebook className="social-icon" />
                 </a>
-                <a href="#">
+                <a href="/">
                   <FaLinkedin className="social-icon" />
                 </a>
               </div>

@@ -1,6 +1,6 @@
 import { Navbar } from "../components/navbar/Navbar";
-import { Partner } from "./../components/partner/Partner";
-import { Footer } from "./../components/Footer/Footer";
+import { Partner } from "../components/partner/Partner";
+import { Footer } from "../components/Footer/Footer";
 import { Banner2 } from "../components/banner/Banner2";
 import { Blog } from "../components/blog/Blog";
 import { Heading } from "../components/shared/Heading";
